@@ -1,0 +1,60 @@
+//program to find given number is prime are not in java language 
+import java.*;
+
+import java.util.Scanner;
+
+class Main 
+
+{
+
+    public static void main(String [] args)
+
+    {
+
+        
+
+        System.out.print("Enter your value here = ");
+
+        Scanner obj = new Scanner(System.in);
+
+        int a= obj.nextInt();
+
+        boolean T=false;
+
+        for(int i=2;i<=a/2;i++)
+
+        {
+
+            if(a%i==0)
+
+            {
+
+                T=true;
+
+            }
+
+        }
+
+        if(T==false)
+
+        {
+
+        
+
+        System.out.println(" its is a prime");
+
+        }
+
+        else
+
+        {
+
+            System.out.println( " not prime");
+
+        }
+
+    }
+
+    
+
+}
